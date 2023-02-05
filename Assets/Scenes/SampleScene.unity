@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386244906}
     m_Modifications:
+    - target: {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
+      propertyPath: _spawnMob
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3689364327737884749, guid: aa063b716dba9644d8e9140985e61882, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -178,7 +186,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPoint
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aa063b716dba9644d8e9140985e61882, type: 3}
 --- !u!4 &79096156 stripped
 Transform:
@@ -194,6 +203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 386244906}
+  - component: {fileID: 386244907}
   m_Layer: 0
   m_Name: Spawn
   m_TagString: Untagged
@@ -209,7 +219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386244905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5911317, y: -3.2992172, z: -0.055296946}
+  m_LocalPosition: {x: 4.5911317, y: -3.26, z: -0.055296946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -219,6 +229,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &386244907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386244905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97ac5e4757e7a540b4981008b628260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawner: {fileID: 386244906}
+  _spawnMob: {fileID: 4348492071762070199, guid: 2dca305df02d6ba4396bdd377f792761, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +422,14 @@ PrefabInstance:
       propertyPath: _spawn
       value: 
       objectReference: {fileID: 386244906}
+    - target: {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 386244906}
+    - target: {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
+      propertyPath: _spawnPrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3689364327737884749, guid: aa063b716dba9644d8e9140985e61882, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -446,7 +478,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPoint
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aa063b716dba9644d8e9140985e61882, type: 3}
 --- !u!4 &4537735071508942061 stripped
 Transform:
@@ -460,6 +493,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386244906}
     m_Modifications:
+    - target: {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 386244906}
     - target: {fileID: 3689364327737884749, guid: aa063b716dba9644d8e9140985e61882, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -508,7 +545,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPoint
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3083571585942213844, guid: aa063b716dba9644d8e9140985e61882, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aa063b716dba9644d8e9140985e61882, type: 3}
 --- !u!4 &7171580553952220071 stripped
 Transform:

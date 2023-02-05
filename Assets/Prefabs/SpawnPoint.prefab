@@ -97,5 +97,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d97ac5e4757e7a540b4981008b628260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawn: {fileID: 0}
-  _spawnPrefab: {fileID: 4661278529099924827, guid: 2dca305df02d6ba4396bdd377f792761, type: 3}
+  _spawner: {fileID: 0}
+  _spawnMob: {fileID: 4348492071762070199, guid: 2dca305df02d6ba4396bdd377f792761, type: 3}
